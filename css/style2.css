@@ -1,0 +1,387 @@
+body
+{
+	background-image: linear-gradient(to bottom, teal, mediumaquamarine 50%, teal 50%, darkseagreen 25%);
+	margin:0;
+	padding:0;
+	width:1519px;
+}
+
+.banner
+{
+	/*border:3px dashed #05386B;*/
+	background:#05386B;
+	width:100%;
+}
+
+.baron
+{
+	display:inline;
+	font-size:80px;
+	text-shadow:#5CDB95 2px 2px 2px;
+	font-family: 'Staatliches';
+	margin-left:10px;
+	width:100%;
+}
+
+.home-link
+{
+	text-decoration:none;
+	color:#EDF5E1;
+}
+
+.projects
+{
+	display:inline;
+	font-size:40px;
+	font-family: 'Staatliches';
+	text-shadow:#5CDB95 2px 2px 2px;
+	color:#EDF5E1;
+	color:white;
+	margin-left:30px;
+}
+
+.project-link
+{
+	text-decoration:none;
+	color:#EDF5E1;
+}
+
+.about
+{
+	display:inline;
+	font-size:40px;
+	font-family: 'Staatliches';
+	text-shadow:#5CDB95 2px 2px 2px;
+	color:white;
+	margin-left:30px;
+}
+
+.about-link
+{
+	text-decoration:none;
+	color:#EDF5E1;
+}
+
+.contact
+{
+	display:inline;
+	font-size:40px;
+	font-family: 'Staatliches';
+	text-shadow:#5CDB95 2px 2px 2px;
+	color:white;
+	margin-left:30px;
+}
+
+.contact-link
+{
+	text-decoration:none;
+	color:#EDF5E1;
+}
+
+/*--------------------------------------------------End Banner*/
+
+.entryway-sketches 
+{
+  	position: relative;
+  	width: 30%;
+  	border:2px solid white;
+  	display:inline-block;
+  	vertical-align:top;
+}
+
+.entry-one
+{
+  	display: block;
+  	width: 100%;
+  	height: auto;
+}
+
+.overlay 
+{
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #379683;
+}
+
+.entryway-sketches:hover .overlay 
+{
+  	opacity: 1;
+}
+
+.text 
+{
+  	color: white;
+  	font-size: 30px;
+  	font-family: 'Squada One';
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+/*----------------------------------------------End Overlay1*/
+
+.colortheory
+{
+  	position: relative;
+  	width: 40%;
+  	border:2px solid white;
+  	display:inline-block;
+  	vertical-align:top;
+}
+
+.colortheory-pic
+{
+  	display: block;
+  	width: 100%;
+  	height: auto;
+}
+
+.overlay2 
+{
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color:#8EE4AF;
+}
+
+.colortheory:hover .overlay2 
+{
+  	opacity: 1;
+}
+
+.text2
+{
+  	color: white;
+  	font-size: 30px;
+  	font-family: 'Squada One';
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+/*-----------------------------------------------End Overlay2*/
+
+.boxmodel
+{
+  	position: relative;
+  	width: 443.7px;
+  	border:2px solid white;
+  	display:inline-block;
+  	vertical-align:bottom;
+}
+
+.boxmodel-pic
+{
+  	display: block;
+  	width: 100%;
+  	height: auto;
+}
+
+.overlay3
+{
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color:#05386B;
+}
+
+.boxmodel:hover .overlay3
+{
+  	opacity: 1;
+}
+
+.text3
+{
+  	color: white;
+  	font-size: 30px;
+  	font-family: 'Squada One';
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+/*------------------------------------------------End Overlay3*/
+
+.tertiary
+{
+  	position: relative;
+  	width: 20%;
+  	border:2px solid white;
+  	display:inline-block;
+  	vertical-align:top;
+}
+
+.tertiary-pic
+{
+  	display: block;
+  	width: 100%;
+  	height: auto;
+}
+
+.overlay4
+{
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color:#8EE4AF;
+}
+
+.tertiary:hover .overlay4
+{
+  	opacity: 1;
+}
+
+.text4
+{
+  	color: white;
+  	font-size: 30px;
+  	font-family: 'Squada One';
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+/*----------------------------------------------End Overlay4*/
+
+.responsive
+{
+  	position: relative;
+  	width: 50%;
+  	border:2px solid white;
+  	display:inline-block;
+  	vertical-align:top;
+}
+
+.responsive-pic
+{
+  	display: block;
+  	width: 100%;
+  	height: auto;
+}
+
+.overlay5
+{
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color:#05386B;
+}
+
+.responsive:hover .overlay5
+{
+  	opacity: 1;
+}
+
+.text5
+{
+  	color: white;
+  	font-size: 30px;
+  	font-family: 'Squada One';
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+/*--------------------------------------------End Overlay5*/
+
+.midterm
+{
+  	position: relative;
+  	width: 29%;
+  	border:2px solid white;
+  	display:inline-block;
+  	vertical-align:top;
+}
+
+.midterm-pic
+{
+  	display: block;
+  	width: 100%;
+  	height: auto;
+}
+
+.overlay6
+{
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color:#379683;
+}
+
+.midterm:hover .overlay6
+{
+  	opacity: 1;
+}
+
+.text6
+{
+  	color: white;
+  	font-size: 30px;
+  	font-family: 'Squada One';
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+/*-------------------------------------------End Overlay6*/
